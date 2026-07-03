@@ -184,11 +184,11 @@ const Home = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-y-12">
           {[
+            { icon: "auto_awesome", label: "AGENTIC AI" },
+            { icon: "cloud", label: "CLOUD & DEVOPS" },
             { icon: "code", label: "WEB DEVELOPMENT" },
             { icon: "apps", label: "APP DEVELOPMENT" },
-            { icon: "auto_awesome", label: "AGENTIC AI" },
             { icon: "search", label: "SEO" },
-            { icon: "cloud", label: "CLOUD & DEVOPS" },
             { icon: "design_services", label: "UI/UX DESIGN" },
           ].map(({ icon, label }) => (
             <div key={label} className="flex flex-col items-center gap-4 group">

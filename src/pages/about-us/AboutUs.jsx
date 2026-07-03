@@ -48,16 +48,6 @@ const AboutUs = () => {
 
   const teamMembers = [
     {
-      id: "gurujeet",
-      name: "Gurujeet Kumar",
-      role: "CFO • COO",
-      bio: "Works close to market trends, SEO, operations, and finances. Tries to keep product decisions grounded in what users actually need.",
-      linkedin: "https://www.linkedin.com/in/imgurujeet/",
-      x: "https://x.com/imgurujeet",
-      photo: gurujeetPhoto,
-      position: "left",
-    },
-    {
       id: "manish",
       name: "Manish Kumar",
       role: "CEO • Client Outreach Head",
@@ -68,9 +58,19 @@ const AboutUs = () => {
       position: "center",
     },
     {
+      id: "gurujeet",
+      name: "Gurujeet Kumar",
+      role: "CFO • COO",
+      bio: "Works close to market trends, SEO, operations, and finances. Tries to keep product decisions grounded in what users actually need.",
+      linkedin: "https://www.linkedin.com/in/imgurujeet/",
+      x: "https://x.com/imgurujeet",
+      photo: gurujeetPhoto,
+      position: "left",
+    },
+    {
       id: "ayush",
       name: "Ayush Aman",
-      role: "CTO",
+      role: "CTO • Technical Operations Head",
       bio: "Works on engineering, AI, DevOps, and architecture. Likes building things that feel solid, fast, and dependable.",
       linkedin: "https://www.linkedin.com/in/ayushaman24/",
       x: "https://x.com/aman_ayush4",
