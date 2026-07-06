@@ -18,6 +18,16 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
+      
+      // Default to denied unless explicitly accepted
+      const savedConsent = localStorage.getItem('achaia_cookie_consent');
+      gtag('consent', 'default', {
+        'analytics_storage': savedConsent === 'accepted' ? 'granted' : 'denied',
+        'ad_storage': savedConsent === 'accepted' ? 'granted' : 'denied',
+        'personalization_storage': savedConsent === 'accepted' ? 'granted' : 'denied',
+        'security_storage': 'granted'
+      });
+
       gtag('js', new Date());
       gtag('config', 'G-EP8Y3C2Z1L');
     </script>
